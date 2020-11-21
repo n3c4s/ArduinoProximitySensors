@@ -54,6 +54,8 @@ struct {
 
 } RemoteXY;
 #pragma pack(pop)
+
+//Inicializar Sensores y asignar pines de conexion
 int sensor1 = A0;
 int sensor2 = A1;
 int sensor3 = A2;
@@ -62,6 +64,7 @@ int sensor5 = A6;
 int sensor6 = A8;
 int sensor7 = A9;
 int pinA3 = 34;
+// Inicializar variables de control
 int contador4p = 0;
 int contador3p = 0;
 bool c1act = false;
